@@ -187,6 +187,35 @@ span.nose {
   animation-duration: 10.4s;
   animation-iteration-count: infinite;
 }
+.mouth.mouthMark {
+  animation-name: singMark;
+  animation-duration: 10.4s;
+  animation-iteration-count: infinite;
+}
+@keyframes singMark {
+	0%, 9% {background-color: transparent;}
+	9%, 10% {background-color: transparent;}
+	10%, 11% {background-color: black;}
+	11%, 12% {background-color: transparent;}
+	12%, 12.5% {background-color: black;}
+	12.5%, 13% {background-color: transparent;}
+	13%, 15% {background-color: black;}
+	15%, 16% {background-color: transparent;}
+	16%, 17% {background-color: black;}
+	17%, 19% {background-color: transparent;}
+	19%, 42% {background-color: transparent;}
+	42%, 43% {background-color: transparent;}
+	43%, 44% {background-color: black;}
+	44%, 45% {background-color: transparent;}
+	45%, 45.5% {background-color: black;}
+	45.5%, 46% {background-color: transparent;}
+	46%, 48% {background-color: black;}
+	48%, 49% {background-color: transparent;}
+	49%, 50% {background-color: black;}
+	50%, 51% {background-color: transparent;}
+	51%, 100% {background-color: transparent;}
+}
+
 @keyframes sing {
 	0%, 25% {background-color: transparent;}
 	25%, 26% {background-color: transparent;}
